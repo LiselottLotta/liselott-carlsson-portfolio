@@ -509,12 +509,36 @@ a {
 
 .case-media-landscape img {
   padding: 0;
-  object-fit: contain;
-  object-position: center;
+  object-fit: cover;
+  object-position: 50% 46%;
 }
 
 .case-media-landscape {
   background: #263448;
+}
+
+.case-media-photo > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.case-media-vbk-photo > img {
+  object-position: 50% 50%;
+}
+
+.case-cover-page {
+  padding: 1.2rem;
+  background: #e8dcc9;
+}
+
+.case-cover-page > img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 14px 24px rgba(24, 34, 56, 0.12));
 }
 
 .case-feature .case-media {
