@@ -10,6 +10,8 @@ const cases = {
       ["Värdet", "Ett skalbart innehållskoncept som kunde användas över tid och låta medarbetarna bära berättelsen om företaget."]
     ],
     images: [
+      ["platzer-drone.webp", "Platzers fastighet i Gårda i kvällsljus"],
+      ["visuell-produktion.webp", "Exempel på visuell produktion för Platzer"],
       ["mot-platzer.jpg", "Möt Platzer, konceptets huvudbild"],
       ["mot-platzer-christina.jpg", "Medarbetarporträtt med Christina Cedérus Olauson"],
       ["mot-platzer-hakan.jpg", "Medarbetarporträtt med Håkan Johansson"],
@@ -45,6 +47,7 @@ const cases = {
     ],
     links: [["Se landningssidan", "https://www.platzer.se/sv/parkering"]],
     images: [
+      ["parkering-landningssida.webp", "Landningssida med lediga parkeringsgarage"],
       ["parkering-garda.png", "Sponsrat innehåll för parkering i Gårda"],
       ["parkering-gamlestaden.png", "Sponsrat innehåll för parkering i Gamlestaden"],
       ["parkering-webb.png", "Landningssida för parkering i Göteborg"]
@@ -62,6 +65,7 @@ const cases = {
     ],
     links: [["Se kundcaset", "https://www.platzer.se/sv/kundcase/vbk"]],
     images: [
+      ["lilla-bommen.webp", "Lilla Bommen och Aria i kvällsljus"],
       ["vbk-webb.png", "Kundcaset på Platzers webbplats"],
       ["vbk-karusell-1.png", "Första bilden i LinkedIn-karusellen"],
       ["vbk-karusell-2.png", "Karusellbild om hållbarhet i vardagen"],
@@ -112,6 +116,7 @@ const cases = {
       ["Efter arbetet", "En rekommenderad pilot där kunden kunde skicka en bild för hjälp med produktval lanserades efter analysen."]
     ],
     images: [
+      ["analys-omslag.webp", "Omslag till analysen Från klick till kund"],
       ["analys-rapport.png", "Examensrapportens omslag"],
       ["analys-kundresa.png", "Customer journey map"],
       ["analys-dashboard.png", "Dashboard och analysunderlag"],
