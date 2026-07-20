@@ -528,15 +528,13 @@ a {
 }
 
 .case-media-office > img {
-  opacity: 0;
+  opacity: 1;
+  object-fit: cover;
+  object-position: center;
 }
 
 .case-media-office {
   background-color: var(--peach);
-  background-image: url("langelive-lokaler.png");
-  background-repeat: no-repeat;
-  background-position: 50% 19%;
-  background-size: 100% auto;
 }
 
 .case-cover-mot {
