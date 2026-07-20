@@ -509,8 +509,12 @@ a {
 
 .case-media-landscape img {
   padding: 0;
-  object-fit: cover;
-  object-position: 50% 52%;
+  object-fit: contain;
+  object-position: center;
+}
+
+.case-media-landscape {
+  background: #263448;
 }
 
 .case-feature .case-media {
@@ -550,12 +554,21 @@ a {
   max-height: 88%;
 }
 
-.case-cover-email > img,
+.case-cover-email > img {
+  width: auto !important;
+  height: 100% !important;
+  max-width: 88% !important;
+  max-height: none !important;
+  object-fit: cover !important;
+  object-position: 50% 20% !important;
+  transform: none !important;
+}
+
 .case-cover-vbk > img {
   width: auto !important;
   height: auto !important;
-  max-width: 78% !important;
-  max-height: 82% !important;
+  max-width: 96% !important;
+  max-height: 94% !important;
   object-fit: contain !important;
   transform: none !important;
 }
@@ -570,7 +583,7 @@ a {
   max-width: none !important;
   max-height: none !important;
   object-fit: cover !important;
-  object-position: 50% 30%;
+  object-position: 50% 76%;
   transform: none !important;
   filter: none;
 }
