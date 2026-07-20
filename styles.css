@@ -527,6 +527,45 @@ a {
   object-position: 50% 50%;
 }
 
+.case-media-office > img {
+  opacity: 0;
+}
+
+.case-media-office {
+  background-color: var(--peach);
+  background-image: url("langelive-lokaler.png");
+  background-repeat: no-repeat;
+  background-position: 50% 19%;
+  background-size: 100% auto;
+}
+
+.case-cover-mot {
+  padding: 0;
+  background: #263448;
+}
+
+.case-cover-mot > img {
+  width: auto;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  filter: none;
+}
+
+.case-cover-visual {
+  padding: 1.5rem;
+  background: var(--peach);
+}
+
+.case-cover-visual > img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
 .case-cover-page {
   padding: 1.2rem;
   background: #e8dcc9;
