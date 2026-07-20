@@ -39,6 +39,7 @@ body.dialog-open {
 
 img {
   max-width: 100%;
+  height: auto;
   display: block;
 }
 
@@ -311,9 +312,12 @@ a {
 
 .hero-visual img {
   position: absolute;
-  inset: auto -8% 0;
-  width: 116%;
+  inset: auto auto 0 50%;
+  width: min(118%, 640px);
+  height: auto;
   max-width: none;
+  object-fit: contain;
+  transform: translateX(-50%);
   filter: drop-shadow(0 34px 38px rgba(24, 34, 56, 0.14));
 }
 
@@ -486,7 +490,8 @@ a {
 
 .case-media {
   position: relative;
-  height: 395px;
+  min-height: 360px;
+  aspect-ratio: 16 / 10;
   overflow: hidden;
   background: var(--mist);
 }
@@ -503,7 +508,9 @@ a {
 }
 
 .case-media-landscape img {
-  object-position: 50% 52%;
+  padding: 1.8rem;
+  object-fit: contain;
+  object-position: center;
 }
 
 .case-feature .case-media {
@@ -980,7 +987,9 @@ a {
 
   .case-feature .case-media,
   .case-wide .case-media {
-    height: 520px;
+    height: 460px;
+    min-height: 0;
+    aspect-ratio: auto;
   }
 
   .case-feature .case-copy,
@@ -1161,7 +1170,8 @@ a {
   }
 
   .case-media {
-    height: 330px;
+    min-height: 310px;
+    aspect-ratio: 4 / 3;
   }
 
   .email-preview,
