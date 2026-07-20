@@ -10,10 +10,10 @@ const cases = {
       ["Värdet", "Ett skalbart innehållskoncept som kunde användas över tid och låta medarbetarna bära berättelsen om företaget."]
     ],
     images: [
-      ["assets/mot-platzer.jpg", "Möt Platzer, konceptets huvudbild"],
-      ["assets/mot-platzer-christina.jpg", "Medarbetarporträtt med Christina Cedérus Olauson"],
-      ["assets/mot-platzer-hakan.jpg", "Medarbetarporträtt med Håkan Johansson"],
-      ["assets/mot-platzer-henrik.jpg", "Medarbetarporträtt med Henrik Nordqvist"]
+      ["mot-platzer.jpg", "Möt Platzer, konceptets huvudbild"],
+      ["mot-platzer-christina.jpg", "Medarbetarporträtt med Christina Cedérus Olauson"],
+      ["mot-platzer-hakan.jpg", "Medarbetarporträtt med Håkan Johansson"],
+      ["mot-platzer-henrik.jpg", "Medarbetarporträtt med Henrik Nordqvist"]
     ]
   },
   "lange-leve": {
@@ -27,10 +27,10 @@ const cases = {
       ["Utfall", "Kampanjen nådde bland annat 41 procent i öppningsgrad och upp till 70,4 procent i den starkaste målgruppen."]
     ],
     images: [
-      ["assets/langelive-intro.png", "Introduktion i mejlkonceptet"],
-      ["assets/langelive-lokaler.png", "Målgruppsanpassade lokalförslag"],
-      ["assets/langelive-avslut.png", "Avslut och väg vidare"],
-      ["assets/langelive-kontakt.png", "Personlig kontakt i mejlkonceptet"]
+      ["langelive-intro.png", "Introduktion i mejlkonceptet"],
+      ["langelive-lokaler.png", "Målgruppsanpassade lokalförslag"],
+      ["langelive-avslut.png", "Avslut och väg vidare"],
+      ["langelive-kontakt.png", "Personlig kontakt i mejlkonceptet"]
     ]
   },
   parkering: {
@@ -45,9 +45,9 @@ const cases = {
     ],
     links: [["Se landningssidan", "https://www.platzer.se/sv/parkering"]],
     images: [
-      ["assets/parkering-garda.png", "Sponsrat innehåll för parkering i Gårda"],
-      ["assets/parkering-gamlestaden.png", "Sponsrat innehåll för parkering i Gamlestaden"],
-      ["assets/parkering-webb.png", "Landningssida för parkering i Göteborg"]
+      ["parkering-garda.png", "Sponsrat innehåll för parkering i Gårda"],
+      ["parkering-gamlestaden.png", "Sponsrat innehåll för parkering i Gamlestaden"],
+      ["parkering-webb.png", "Landningssida för parkering i Göteborg"]
     ]
   },
   vbk: {
@@ -62,10 +62,10 @@ const cases = {
     ],
     links: [["Se kundcaset", "https://www.platzer.se/sv/kundcase/vbk"]],
     images: [
-      ["assets/vbk-webb.png", "Kundcaset på Platzers webbplats"],
-      ["assets/vbk-karusell-1.png", "Första bilden i LinkedIn-karusellen"],
-      ["assets/vbk-karusell-2.png", "Karusellbild om hållbarhet i vardagen"],
-      ["assets/vbk-karusell-3.png", "Karusellbild om utsikten och platsen"]
+      ["vbk-webb.png", "Kundcaset på Platzers webbplats"],
+      ["vbk-karusell-1.png", "Första bilden i LinkedIn-karusellen"],
+      ["vbk-karusell-2.png", "Karusellbild om hållbarhet i vardagen"],
+      ["vbk-karusell-3.png", "Karusellbild om utsikten och platsen"]
     ]
   },
   film: {
@@ -84,9 +84,9 @@ const cases = {
       ["Se intervjun", "https://www.instagram.com/reel/DRwfvICExef/?igsh=YTBuMjU2bm8yMmN0"]
     ],
     images: [
-      ["assets/film-arsstamma.png", "Film för Platzers årsstämma 2026"],
-      ["assets/film-varumarke.png", "Varumärkesfilmen Nytt uttryck. Samma Platzer."],
-      ["assets/film-hallbarhet.png", "Kort intervju från Stora Hållbarhetsdagen"]
+      ["film-arsstamma.png", "Film för Platzers årsstämma 2026"],
+      ["film-varumarke.png", "Varumärkesfilmen Nytt uttryck. Samma Platzer."],
+      ["film-hallbarhet.png", "Kort intervju från Stora Hållbarhetsdagen"]
     ]
   },
   sjalvklara: {
@@ -99,7 +99,7 @@ const cases = {
       ["Min roll", "Copy, budskapsstruktur, hållbarhetskommunikation, webbtext, målgruppsanpassning och kundkommunikation."],
       ["Värdet", "Ett komplext hållbarhetsarbete översattes till innehåll som kändes relevant, praktiskt och användbart för kunden."]
     ],
-    images: [["assets/sjalvklara-inredningsval.jpg", "Portfolioöversikt för Självklara inredningsval"]]
+    images: [["sjalvklara-inredningsval.jpg", "Portfolioöversikt för Självklara inredningsval"]]
   },
   analys: {
     kicker: "Kundresa · GA4 · Funnel · Konvertering",
@@ -112,10 +112,10 @@ const cases = {
       ["Efter arbetet", "En rekommenderad pilot där kunden kunde skicka en bild för hjälp med produktval lanserades efter analysen."]
     ],
     images: [
-      ["assets/analys-rapport.png", "Examensrapportens omslag"],
-      ["assets/analys-kundresa.png", "Customer journey map"],
-      ["assets/analys-dashboard.png", "Dashboard och analysunderlag"],
-      ["assets/analys-rekommendation.png", "Rekommendation för en enklare checkout"]
+      ["analys-rapport.png", "Examensrapportens omslag"],
+      ["analys-kundresa.png", "Customer journey map"],
+      ["analys-dashboard.png", "Dashboard och analysunderlag"],
+      ["analys-rekommendation.png", "Rekommendation för en enklare checkout"]
     ]
   }
 };
