@@ -11,12 +11,23 @@ const cases = {
     ],
     images: [
       ["platzer-drone.webp", "Platzers fastighet i Gårda i kvällsljus"],
-      ["visuell-produktion.webp", "Exempel på visuell produktion för Platzer"],
       ["mot-platzer.jpg", "Möt Platzer, konceptets huvudbild"],
       ["mot-platzer-christina.jpg", "Medarbetarporträtt med Christina Cedérus Olauson"],
       ["mot-platzer-hakan.jpg", "Medarbetarporträtt med Håkan Johansson"],
       ["mot-platzer-henrik.jpg", "Medarbetarporträtt med Henrik Nordqvist"]
     ]
+  },
+  "visuell-produktion": {
+    kicker: "Layout · Copy · Bildval · Formatanpassning",
+    title: "Visuell produktion",
+    intro: "Visuellt material för digital skyltning och inbjudningar, anpassat efter budskap, kanal och varumärke.",
+    details: [
+      ["Uppdraget", "Ta fram material som snabbt kommunicerade rätt budskap i miljöer där mottagaren bara har några sekunder på sig."],
+      ["Arbetet", "Innehåll och layout anpassades för bland annat digital skyltning, välkomstinformation och inbjudningar."],
+      ["Min roll", "Layout, copy, bildval, formatanpassning, varumärkesanpassning och visuell helhet."],
+      ["Resultatet", "Tydliga produktioner med en sammanhållen känsla som fungerade direkt i respektive kanal."]
+    ],
+    images: [["visuell-produktion.webp", "Exempel på visuell produktion för Platzer"]]
   },
   "lange-leve": {
     kicker: "Apsis · Segmentering · Copy · Uppföljning",
