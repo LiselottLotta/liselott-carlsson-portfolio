@@ -57,7 +57,7 @@ const cases = {
     ],
     links: [["Se landningssidan", "https://www.platzer.se/sv/parkering"]],
     images: [
-      ["parkering-landningssida.webp", "Landningssida med lediga parkeringsgarage"],
+      ["parkering-1600x1000.webp", "Parkering i Göteborg"],
       ["parkering-garda.png", "Sponsrat innehåll för parkering i Gårda"],
       ["parkering-gamlestaden.png", "Sponsrat innehåll för parkering i Gamlestaden"],
       ["parkering-webb.png", "Landningssida för parkering i Göteborg"]
