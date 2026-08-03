@@ -582,6 +582,24 @@ a {
   filter: drop-shadow(0 14px 24px rgba(24, 34, 56, 0.12));
 }
 
+.case-cover-parking-full {
+  display: block;
+  padding: 0;
+  background: transparent;
+}
+
+.case-cover-parking-full > img {
+  position: absolute;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: none !important;
+  max-height: none !important;
+  object-fit: cover !important;
+  object-position: 50% 50% !important;
+  filter: none;
+}
+
 .case-feature .case-media {
   background: var(--ink);
 }
