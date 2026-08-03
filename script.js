@@ -10,8 +10,7 @@ const cases = {
       ["Värdet", "Ett skalbart innehållskoncept som kunde användas över tid och låta medarbetarna bära berättelsen om företaget."]
     ],
     images: [
-      ["platzer-drone.webp", "Platzers fastighet i Gårda i kvällsljus"],
-      ["mot-platzer.jpg", "Möt Platzer, konceptets huvudbild"],
+      ["mot-platzer-ny.webp", "Möt Platzer, konceptets huvudbild"],
       ["mot-platzer-christina.jpg", "Medarbetarporträtt med Christina Cedérus Olauson"],
       ["mot-platzer-hakan.jpg", "Medarbetarporträtt med Håkan Johansson"],
       ["mot-platzer-henrik.jpg", "Medarbetarporträtt med Henrik Nordqvist"]
