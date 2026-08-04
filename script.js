@@ -120,15 +120,19 @@ const cases = {
     title: "Analys & digital kundresa",
     intro: "En analys av HelloBombshells digitala kundresa från första klick till köp, med fokus på trafik, beteende, konvertering och tapp i funneln.",
     details: [
-      ["Analysen", "Arbetet omfattade GA4-data, dashboard i Excel, customer journey map, personas, konkurrentanalys och analys av produktval och checkout."],
-      ["Insikten", "Intresset var starkt tidigt i kundresan, men tydliga tapp uppstod när kunden skulle välja produkt och slutföra köpet i mobilen."],
-      ["Min roll", "Analys, GA4, Excel-dashboard, kundresa, funnel, personas, konkurrentanalys och rekommendationer."],
-      ["Efter arbetet", "En rekommenderad pilot där kunden kunde skicka en bild för hjälp med produktval lanserades efter analysen."]
+      ["Analysen", "Arbetet omfattade GA4-data, funnel, dashboard i Excel, customer journey map, personas, konkurrentanalys och genomgång av produktval och checkout."],
+      ["Insikten", "Intresset var starkt tidigt i kundresan, men tapp uppstod när kunden skulle välja rätt färg, längd och mängd löshår samt slutföra köpet i mobilen."],
+      ["Rekommendationen", "Jag rekommenderade tydligare guidning före köp, färghjälp för osäkra kunder och en tryggare mobil checkout med mindre friktion."],
+      ["Efter arbetet", "Efter analysen finns färgkonsultation och tydligare guideinnehåll live, vilket gör vägen från osäkerhet till köp mer konkret för kunden."]
+    ],
+    links: [
+      ["Se färgkonsultationen live", "https://hellobombshell.se/pages/fargkonsultation"]
     ],
     images: [
       ["analys-dashboard.png", "Dashboard och analysunderlag"],
       ["analys-kundresa.png", "Customer journey map"],
-      ["analys-rekommendation.png", "Rekommendation för en enklare checkout"]
+      ["analys-rekommendation.png", "Rekommendation för en enklare checkout"],
+      ["analys-live-fargguide.webp", "Guideinnehåll som ligger live efter rekommendationerna"]
     ]
   }
 };
