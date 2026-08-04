@@ -39,7 +39,7 @@ const cases = {
       ["Utfall", "Kampanjen nådde bland annat 41 procent i öppningsgrad och upp till 70,4 procent i den starkaste målgruppen."]
     ],
     images: [
-      ["lange-leve-1600x1000.webp", "Länge leve kontoret, kampanjens huvudbild"],
+      ["langelive-intro.png", "Intro i mejlkonceptet Länge leve kontoret"],
       ["langelive-lokaler.png", "Målgruppsanpassade lokalförslag"],
       ["langelive-avslut.png", "Avslut och väg vidare"],
       ["langelive-kontakt.png", "Personlig kontakt i mejlkonceptet"]
