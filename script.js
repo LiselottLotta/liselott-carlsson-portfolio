@@ -122,17 +122,17 @@ const cases = {
     details: [
       ["Analysen", "Arbetet omfattade GA4-data, funnel, dashboard i Excel, customer journey map, personas, konkurrentanalys och genomgång av produktval och checkout."],
       ["Insikten", "Intresset var starkt tidigt i kundresan, men tapp uppstod när kunden skulle välja rätt färg, längd och mängd löshår samt slutföra köpet i mobilen."],
-      ["Rekommendationen", "Jag rekommenderade tydligare guidning före köp, färghjälp för osäkra kunder och en tryggare mobil checkout med mindre friktion."],
-      ["Efter arbetet", "Efter analysen finns färgkonsultation och tydligare guideinnehåll live, vilket gör vägen från osäkerhet till köp mer konkret för kunden."]
+      ["Rekommendationen", "Jag rekommenderade tydligare guidning före köp, färghjälp för osäkra kunder, konkret stöd kring färg, längd och antal paket samt en renare checkout med färre störmoment."],
+      ["Efter arbetet", "Efter analysen finns färgkonsultation och guideinnehåll live. Exempelvis visar längd- och paketguiden hur många paket som behövs och hur olika längder ser ut, och checkouten har blivit renare så kunden får en tryggare väg mot köp."]
     ],
     links: [
       ["Se färgkonsultationen live", "https://hellobombshell.se/pages/fargkonsultation"]
     ],
     images: [
-      ["analys-dashboard.png", "Dashboard och analysunderlag"],
       ["analys-kundresa.png", "Customer journey map"],
       ["analys-rekommendation.png", "Rekommendation för en enklare checkout"],
-      ["analys-live-fargguide.webp", "Guideinnehåll som ligger live efter rekommendationerna"]
+      ["analys-live-fargguide.webp", "Guideinnehåll som gör kunden säkrare kring längd och antal paket"],
+      ["analys-dashboard.png", "Dashboard och analysunderlag"]
     ]
   }
 };
