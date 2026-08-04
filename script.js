@@ -48,18 +48,19 @@ const cases = {
   parkering: {
     kicker: "Kampanj · Landningssida · Sponsrat innehåll",
     title: "Parkering i Göteborg",
-    intro: "En landningssida och innehåll för sociala medier som gjorde Platzers parkeringsmöjligheter enkla att förstå och hitta.",
+    intro: "En kampanj och landningssida som gjorde Platzers parkeringsmöjligheter enklare att förstå, hitta och boka.",
     details: [
-      ["Uppdraget", "Samla praktisk information på ett ställe och skapa tydliga vägar från annonsering till bokning."],
-      ["Arbetet", "Budskap och format anpassades för webb, LinkedIn och Instagram, med fokus på enkelhet, trygghet och geografisk relevans."],
+      ["Uppdraget", "Samla praktisk information om garageparkering på ett ställe och skapa en tydlig väg från annons till information och bokning."],
+      ["Arbetet", "Budskap och format anpassades för webb och sociala medier, med fokus på enkelhet, trygghet och geografisk relevans för olika garage."],
       ["Min roll", "Copy, struktur, landningssida, innehåll för sociala medier, annonsering och CTA."],
-      ["Helheten", "Kampanjen höll ihop innehållet från första annonsintryck till praktisk information och nästa steg på webben."]
+      ["Helheten", "Kampanjen höll ihop första annonsintrycket med den praktiska informationen på webben och hjälpte målgruppen vidare till nästa steg."]
     ],
     links: [["Se landningssidan", "https://www.platzer.se/sv/parkering"]],
     images: [
-      ["parkering-1600x1000.webp", "Parkering i Göteborg"],
-      ["parkering-garda.png", "Sponsrat innehåll för parkering i Gårda"],
-      ["parkering-gamlestaden.png", "Sponsrat innehåll för parkering i Gamlestaden"],
+      ["parkering-garda-post.webp", "Sponsrat innehåll för parkering i Gårda"],
+      ["parkering-gamlestaden-post.webp", "Sponsrat innehåll för parkering i Gamlestaden"],
+      ["parkering-stampen-post.webp", "Sponsrat innehåll för parkering i Stampen"],
+      ["parkering-krokslatt-post.webp", "Sponsrat innehåll för parkering i Krokslätt"],
       ["parkering-webb.png", "Landningssida för parkering i Göteborg"]
     ]
   },

@@ -1197,6 +1197,16 @@ a {
   object-fit: contain;
 }
 
+.dialog-gallery-parkering figure {
+  background: #f8f3ee !important;
+}
+
+.dialog-gallery-parkering img {
+  height: auto;
+  max-height: 660px;
+  object-fit: contain;
+}
+
 .reveal {
   opacity: 0;
   transform: translateY(22px);
