@@ -28,6 +28,25 @@ const cases = {
     ],
     images: [["visuell-produktion.webp", "Exempel på visuell produktion för Platzer"]]
   },
+  gamlestaden: {
+    kicker: "LinkedIn · Platskommunikation · Karusell",
+    title: "Gamlestadens Fabriker",
+    intro: "En LinkedIn-karusell som paketerade flera platsnyheter till ett tydligt och visuellt flöde.",
+    details: [
+      ["Uppdraget", "Göra utvecklingen i området lätt att förstå och skapa intresse för nya stråk, mötesplatser och historiska miljöer."],
+      ["Arbetet", "Karusellen byggdes som en kort berättelse med tydliga nedslag: ny bro, ny scen, passage mellan husen och historien kring Sockerbruket."],
+      ["Min roll", "Copy, struktur, bildurval, layout, kanal-anpassning och visuellt flöde för LinkedIn."],
+      ["Värdet", "Ett komplext områdesarbete blev mer tillgängligt och lättare att ta till sig i sociala medier."]
+    ],
+    images: [
+      ["gamlestaden-carousel-1.webp", "Startbild för Gamlestadens Fabriker-karusellen"],
+      ["gamlestaden-carousel-2.webp", "Karusellbild om Bryggornas bro"],
+      ["gamlestaden-carousel-3.webp", "Karusellbild om Regissören"],
+      ["gamlestaden-carousel-4.webp", "Karusellbild om Blekeriets gränd"],
+      ["gamlestaden-carousel-5.webp", "Karusellbild om Sockerbruket"],
+      ["gamlestaden-carousel-6.webp", "Avslutande karusellbild med webbadress"]
+    ]
+  },
   "lange-leve": {
     kicker: "Apsis · Segmentering · Copy · Uppföljning",
     title: "Länge leve kontoret",

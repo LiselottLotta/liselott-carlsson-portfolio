@@ -462,6 +462,85 @@ a {
   gap: 1.3rem;
 }
 
+.support-work {
+  margin-top: 4.5rem;
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: minmax(240px, 0.85fr) minmax(0, 1.15fr);
+  gap: 2rem;
+  align-items: end;
+  border-top: 1px solid var(--line);
+}
+
+.support-work h3 {
+  max-width: 520px;
+  margin: 0;
+  font-size: clamp(1.8rem, 3vw, 3rem);
+  line-height: 0.98;
+}
+
+.support-work > div > p:last-child {
+  max-width: 460px;
+  margin: 1rem 0 0;
+  color: rgba(24, 34, 56, 0.66);
+}
+
+.support-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.support-card button {
+  width: 100%;
+  min-height: 100%;
+  padding: 0.75rem;
+  display: grid;
+  grid-template-columns: 96px minmax(0, 1fr);
+  gap: 1rem;
+  align-items: center;
+  text-align: left;
+  color: var(--ink);
+  background: var(--white);
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0 10px 30px rgba(24, 34, 56, 0.06);
+  cursor: pointer;
+  transition: transform 220ms ease, box-shadow 220ms ease;
+}
+
+.support-card button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 18px 42px rgba(24, 34, 56, 0.12);
+}
+
+.support-card img {
+  width: 96px;
+  height: 116px;
+  object-fit: cover;
+  border-radius: 0.65rem;
+  background: var(--mist);
+}
+
+.support-card small,
+.support-card strong {
+  display: block;
+}
+
+.support-card small {
+  margin-bottom: 0.45rem;
+  color: var(--teal-deep);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.support-card strong {
+  font-size: 1.15rem;
+  line-height: 1.05;
+}
+
 .case-card {
   min-width: 0;
 }
@@ -1207,6 +1286,16 @@ a {
   object-fit: contain;
 }
 
+.dialog-gallery-gamlestaden figure {
+  background: #f8f3ee !important;
+}
+
+.dialog-gallery-gamlestaden img {
+  height: auto;
+  max-height: 680px;
+  object-fit: contain;
+}
+
 .reveal {
   opacity: 0;
   transform: translateY(22px);
@@ -1293,6 +1382,11 @@ a {
 
   .case-grid {
     grid-template-columns: 1fr;
+  }
+
+  .support-work {
+    grid-template-columns: 1fr;
+    align-items: start;
   }
 
   .skills-intro {
@@ -1417,6 +1511,10 @@ a {
   .case-media {
     min-height: 310px;
     aspect-ratio: 4 / 3;
+  }
+
+  .support-grid {
+    grid-template-columns: 1fr;
   }
 
   .email-preview,
