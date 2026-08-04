@@ -1134,6 +1134,30 @@ a {
   object-fit: contain;
 }
 
+.dialog-gallery-analys {
+  grid-template-columns: 1fr;
+  gap: 1.4rem;
+}
+
+.dialog-gallery-analys figure {
+  min-height: 0;
+  padding: 1.1rem;
+}
+
+.dialog-gallery-analys figure:nth-child(1),
+.dialog-gallery-analys figure:nth-child(2),
+.dialog-gallery-analys figure:nth-child(3) {
+  background: #f8f3ee;
+}
+
+.dialog-gallery-analys img {
+  width: 100%;
+  height: auto;
+  max-height: none;
+  object-fit: contain;
+  border-radius: 0.6rem;
+}
+
 .reveal {
   opacity: 0;
   transform: translateY(22px);
