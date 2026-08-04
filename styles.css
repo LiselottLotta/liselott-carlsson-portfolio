@@ -1187,6 +1187,16 @@ a {
   border-radius: 0.6rem;
 }
 
+.dialog-gallery-lange-leve figure {
+  background: #f8f3ee !important;
+}
+
+.dialog-gallery-lange-leve img {
+  height: auto;
+  max-height: 620px;
+  object-fit: contain;
+}
+
 .reveal {
   opacity: 0;
   transform: translateY(22px);
