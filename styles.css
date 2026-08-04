@@ -1286,6 +1286,29 @@ a {
   object-fit: contain;
 }
 
+.dialog-gallery-vbk figure {
+  background: #f8f3ee !important;
+}
+
+.dialog-gallery-vbk figure:first-child {
+  grid-column: 1 / -1;
+  min-height: 420px;
+  padding: 0;
+}
+
+.dialog-gallery-vbk figure:first-child img {
+  height: 100%;
+  max-height: none;
+  object-fit: cover;
+  object-position: 50% 48%;
+}
+
+.dialog-gallery-vbk img {
+  height: auto;
+  max-height: 680px;
+  object-fit: contain;
+}
+
 .dialog-gallery-gamlestaden figure {
   background: #f8f3ee !important;
 }
