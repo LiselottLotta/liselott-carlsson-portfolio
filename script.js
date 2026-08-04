@@ -125,6 +125,10 @@ const cases = {
       ["Rekommendationen", "Jag rekommenderade tydligare guidning före köp, färghjälp för osäkra kunder, konkret stöd kring färg, längd och antal paket samt en renare checkout med färre störmoment."],
       ["Efter arbetet", "Efter analysen finns färgkonsultation och guideinnehåll live. Exempelvis visar längd- och paketguiden hur många paket som behövs och hur olika längder ser ut, och checkouten har blivit renare så kunden får en tryggare väg mot köp."]
     ],
+    quote: {
+      text: "Liselott levererade ett arbete på byrånivå. Konkret, strukturerat och värdefullt för vår fortsatta tillväxt.",
+      byline: "Clara Feldt, VD, Hello Bombshell"
+    },
     links: [
       ["Se färgkonsultationen live", "https://hellobombshell.se/pages/fargkonsultation"]
     ],
@@ -181,7 +185,12 @@ const openCase = (caseId) => {
       <h3>${title}</h3>
       <p>${copy}</p>
     </section>
-  `).join("");
+  `).join("") + (item.quote ? `
+    <blockquote class="dialog-quote">
+      <p>“${item.quote.text}”</p>
+      <cite>${item.quote.byline}</cite>
+    </blockquote>
+  ` : "");
 
   dialogLinks.innerHTML = (item.links || []).map(([label, href]) => `
     <a href="${href}" target="_blank" rel="noopener noreferrer">${label} <span aria-hidden="true">↗</span></a>
