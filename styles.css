@@ -1078,6 +1078,35 @@ a {
   margin: 0;
 }
 
+.dialog-quote {
+  grid-column: 1 / -1;
+  margin: 0;
+  padding: clamp(1.8rem, 4vw, 2.8rem);
+  color: var(--ink);
+  background: #f8f3ee;
+  border-radius: 1rem;
+}
+
+.dialog-quote p {
+  max-width: 900px;
+  margin: 0;
+  font-size: clamp(1.35rem, 3vw, 2.4rem);
+  line-height: 1.18;
+  font-weight: 760;
+  letter-spacing: -0.01em;
+}
+
+.dialog-quote cite {
+  display: block;
+  margin-top: 1.2rem;
+  color: var(--teal-deep);
+  font-size: 0.88rem;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
 .dialog-links {
   display: flex;
   flex-wrap: wrap;
