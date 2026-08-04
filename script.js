@@ -95,11 +95,9 @@ const cases = {
     ],
     links: [["Se kundcaset", "https://www.platzer.se/sv/kundcase/vbk"]],
     images: [
-      ["lilla-bommen.webp", "Lilla Bommen och Aria i kvällsljus"],
-      ["vbk-webb.png", "Kundcaset på Platzers webbplats"],
-      ["vbk-karusell-1.png", "Första bilden i LinkedIn-karusellen"],
+      ["vbk-karusell-1.png", "Startbild i VBK:s LinkedIn-karusell"],
       ["vbk-karusell-2.png", "Karusellbild om hållbarhet i vardagen"],
-      ["vbk-karusell-3.png", "Karusellbild om utsikten och platsen"]
+      ["vbk-karusell-3.png", "Avslutande karusellbild om utsikten och platsen"]
     ]
   },
   film: {
@@ -149,9 +147,7 @@ const cases = {
       text: "Liselott levererade ett arbete på byrånivå. Konkret, strukturerat och värdefullt för vår fortsatta tillväxt.",
       byline: "Clara Feldt, VD, Hello Bombshell"
     },
-    links: [
-      ["Se färgkonsultationen live", "https://hellobombshell.se/pages/fargkonsultation"]
-    ],
+    links: [["Se färgkonsultationen live", "https://hellobombshell.se/pages/fargkonsultation"]],
     images: [
       ["analys-kundresa.png", "Customer journey map"],
       ["analys-rekommendation.png", "Rekommendation för en enklare checkout"],
@@ -160,6 +156,46 @@ const cases = {
     ]
   }
 };
+
+const vbkGalleryStyle = document.createElement("style");
+vbkGalleryStyle.textContent = `
+  .dialog-gallery-vbk {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    align-items: start;
+  }
+
+  .dialog-gallery-vbk figure,
+  .dialog-gallery-vbk figure:first-child {
+    grid-column: auto;
+    min-height: 0;
+    padding: 0;
+    overflow: hidden;
+    aspect-ratio: 3 / 4;
+    background: #f8f3ee !important;
+  }
+
+  .dialog-gallery-vbk img,
+  .dialog-gallery-vbk figure:first-child img {
+    width: 100%;
+    height: 100%;
+    max-height: none;
+    object-fit: contain;
+    object-position: center;
+  }
+
+  @media (max-width: 900px) {
+    .dialog-gallery-vbk {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 620px) {
+    .dialog-gallery-vbk {
+      grid-template-columns: 1fr;
+    }
+  }
+`;
+document.head.append(vbkGalleryStyle);
 
 const header = document.querySelector(".site-header");
 const menuButton = document.querySelector(".menu-button");
