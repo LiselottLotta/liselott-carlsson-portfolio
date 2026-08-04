@@ -126,11 +126,8 @@ const cases = {
       ["Efter arbetet", "En rekommenderad pilot där kunden kunde skicka en bild för hjälp med produktval lanserades efter analysen."]
     ],
     images: [
-      ["analys-cover-clean.webp", "Analys av kundresa, konvertering och checkout"],
-      ["analys-omslag.webp", "Omslag till analysen Från klick till kund"],
-      ["analys-rapport.png", "Examensrapportens omslag"],
-      ["analys-kundresa.png", "Customer journey map"],
       ["analys-dashboard.png", "Dashboard och analysunderlag"],
+      ["analys-kundresa.png", "Customer journey map"],
       ["analys-rekommendation.png", "Rekommendation för en enklare checkout"]
     ]
   }
@@ -186,6 +183,7 @@ const openCase = (caseId) => {
     <a href="${href}" target="_blank" rel="noopener noreferrer">${label} <span aria-hidden="true">↗</span></a>
   `).join("");
 
+  dialogGallery.className = `dialog-gallery dialog-gallery-${caseId}`;
   dialogGallery.innerHTML = item.images.map(([src, alt]) => `
     <figure><img src="${src}" alt="${alt}" loading="lazy"></figure>
   `).join("");
