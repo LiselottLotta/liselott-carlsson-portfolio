@@ -2,10 +2,10 @@
   if (!window.vbkCarouselImages || window.vbkCarouselImages.length < 8) return;
 
   const selectedImages = [
-    [window.vbkCarouselImages[0], "VBK har flyttat in i Aria, en arbetsplats som speglar framtiden"],
-    [window.vbkCarouselImages[2], "Ola Kjellman berättar om hur VBK:s behov har förändrats sedan 1995"],
-    [window.vbkCarouselImages[4], "Jonathan Söderqvist berättar om utsikten över älven"],
-    [window.vbkCarouselImages[6], "Jonathan Söderqvist om hur arbetsplatsen förenklar samarbete i vardagen"],
+    [window.vbkCarouselImages[6], "VBK har flyttat in i Aria, en arbetsplats som speglar framtiden"],
+    [window.vbkCarouselImages[0], "Ola Kjellman berättar om hur VBK:s behov har förändrats sedan 1995"],
+    [window.vbkCarouselImages[2], "Jonathan Söderqvist berättar om utsikten över älven"],
+    [window.vbkCarouselImages[4], "Jonathan Söderqvist om hur arbetsplatsen förenklar samarbete i vardagen"],
     [window.vbkCarouselImages[7], "Ett fönster mot framtiden, avslutning på VBK:s LinkedIn-karusell"]
   ];
 
