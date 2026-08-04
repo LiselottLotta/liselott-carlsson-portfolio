@@ -12,7 +12,8 @@ const cases = {
     images: [
       ["mot-platzer-christina.jpg", "Medarbetarporträtt med Christina Cedérus Olauson"],
       ["mot-platzer-hakan.jpg", "Medarbetarporträtt med Håkan Johansson"],
-      ["mot-platzer-henrik.jpg", "Medarbetarporträtt med Henrik Nordqvist"]
+      ["mot-platzer-henrik.jpg", "Medarbetarporträtt med Henrik Nordqvist"],
+      ["mot-platzer-therese.webp", "Medarbetarporträtt med Therese Bernheim"]
     ]
   },
   "visuell-produktion": {
