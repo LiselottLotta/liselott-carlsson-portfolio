@@ -31,12 +31,12 @@ const cases = {
   "lange-leve": {
     kicker: "Apsis · Segmentering · Copy · Uppföljning",
     title: "Länge leve kontoret",
-    intro: "Ett segmenterat mejlkoncept som stöttade uthyrningsteamet i kontakten med företag vars hyresavtal närmade sig sitt slut.",
+    intro: "Ett segmenterat mejlutskick som hjälpte uthyrningsteamet att ta kontakt med företag vars hyresavtal närmade sig sitt slut.",
     details: [
-      ["Uppdraget", "Göra erbjudandet relevant för olika mottagare och skapa tydliga vägar vidare till dialog, lokalalternativ och mötesbokning."],
-      ["Arbetet", "Budskap och innehåll anpassades efter behov, område och storlek. Flödet byggdes från en personlig öppning till lokalförslag, CTA och kontaktperson."],
-      ["Min roll", "Idé, copy, segmentering, budskapsstruktur, innehållsupplägg och förslag till uppföljning."],
-      ["Utfall", "Kampanjen nådde bland annat 41 procent i öppningsgrad och upp till 70,4 procent i den starkaste målgruppen."]
+      ["Uppdraget", "Göra kommunikationen mer relevant för olika mottagare och skapa en tydlig väg vidare till dialog, lokalalternativ och kontakt."],
+      ["Arbetet", "Budskap och innehåll anpassades efter mottagarens behov, område och tänkbara lokalstorlek. Flödet gick från igenkänning och behov till konkreta lokalförslag och kontaktperson."],
+      ["Min roll", "Idé, copy, segmentering, budskapsstruktur, innehållsupplägg och förslag på uppföljning."],
+      ["Utfall", "Kampanjen nådde 41 procent i öppningsgrad och upp till 70,4 procent i den starkaste målgruppen."]
     ],
     images: [
       ["langelive-intro.png", "Intro i mejlkonceptet Länge leve kontoret"],
