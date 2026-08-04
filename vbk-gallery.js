@@ -1,6 +1,7 @@
 (() => {
   if (!window.vbkCarouselImages || window.vbkCarouselImages.length < 8) return;
 
+  const order = [6, 1, 0, 3, 2, 5, 4, 7];
   const altTexts = [
     "VBK har flyttat in i Aria, en arbetsplats som speglar framtiden",
     "Varför VBK flyttade, modernare ytor, mer flexibilitet och mer samarbete",
@@ -12,8 +13,8 @@
     "Ett fönster mot framtiden, avslutning på VBK:s LinkedIn-karusell"
   ];
 
-  cases.vbk.images = window.vbkCarouselImages.slice(0, 8).map((src, index) => [
-    src,
+  cases.vbk.images = order.map((imageIndex, index) => [
+    window.vbkCarouselImages[imageIndex],
     altTexts[index]
   ]);
 
