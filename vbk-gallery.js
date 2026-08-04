@@ -1,9 +1,20 @@
 (() => {
   if (!window.vbkCarouselImages || window.vbkCarouselImages.length !== 8) return;
 
+  const altTexts = [
+    "VBK har flyttat in i Aria, en arbetsplats som speglar framtiden",
+    "Varför VBK flyttade, modernare ytor, mer flexibilitet och mer samarbete",
+    "Ola Kjellman berättar om hur VBK:s behov har förändrats sedan 1995",
+    "Läget betyder allt, nära Centralstationen och kajlivet",
+    "Jonathan Söderqvist berättar om utsikten över älven",
+    "Hållbarhet i vardagen med återbrukade möbler och tidlösa material",
+    "Jonathan Söderqvist om hur arbetsplatsen förenklar samarbete i vardagen",
+    "Ett fönster mot framtiden, avslutning på VBK:s LinkedIn-karusell"
+  ];
+
   cases.vbk.images = window.vbkCarouselImages.map((src, index) => [
     src,
-    `Bild ${index + 1} i VBK:s LinkedIn-karusell`
+    altTexts[index]
   ]);
 
   const style = document.createElement("style");
