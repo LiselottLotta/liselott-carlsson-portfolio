@@ -126,6 +126,7 @@ const cases = {
       ["Efter arbetet", "En rekommenderad pilot där kunden kunde skicka en bild för hjälp med produktval lanserades efter analysen."]
     ],
     images: [
+      ["analys-cover-clean.webp", "Analys av kundresa, konvertering och checkout"],
       ["analys-omslag.webp", "Omslag till analysen Från klick till kund"],
       ["analys-rapport.png", "Examensrapportens omslag"],
       ["analys-kundresa.png", "Customer journey map"],
