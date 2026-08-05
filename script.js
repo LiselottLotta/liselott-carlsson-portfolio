@@ -3,6 +3,7 @@ const cases = {
     kicker: "Employer branding · LinkedIn · Medarbetarporträtt",
     title: "Möt Platzer",
     intro: "Ett kommunikationskoncept för LinkedIn som lyfter medarbetare, roller och människorna bakom varumärket.",
+    client: ["Platzer", "platzer-logo.png"],
     details: [
       ["Uppdraget", "Skapa ett format som gjorde det enkelt att återkommande berätta om människorna på Platzer och samtidigt stärka arbetsgivarvarumärket."],
       ["Arbetet", "Konceptet byggde på porträtt, korta introduktioner, en tydlig tonalitet och ett visuellt upplägg som fungerade för olika roller."],
@@ -20,6 +21,7 @@ const cases = {
     kicker: "Layout · Copy · Bildval · Formatanpassning",
     title: "Visuell produktion",
     intro: "Visuellt material för digital skyltning och inbjudningar, anpassat efter budskap, kanal och varumärke.",
+    client: ["Platzer", "platzer-logo.png"],
     details: [
       ["Uppdraget", "Ta fram material som snabbt kommunicerade rätt budskap i miljöer där mottagaren bara har några sekunder på sig."],
       ["Arbetet", "Innehåll och layout anpassades för bland annat digital skyltning, välkomstinformation och inbjudningar."],
@@ -32,6 +34,7 @@ const cases = {
     kicker: "LinkedIn · Platskommunikation · Karusell",
     title: "Gamlestadens Fabriker",
     intro: "En LinkedIn-karusell som paketerade flera platsnyheter till ett tydligt och visuellt flöde.",
+    client: ["Platzer", "platzer-logo.png"],
     details: [
       ["Uppdraget", "Göra utvecklingen i området lätt att förstå och skapa intresse för nya stråk, mötesplatser och historiska miljöer."],
       ["Arbetet", "Karusellen byggdes som en kort berättelse med tydliga nedslag: ny bro, ny scen, passage mellan husen och historien kring Sockerbruket."],
@@ -52,6 +55,7 @@ const cases = {
     kicker: "Apsis · Segmentering · Copy · Uppföljning",
     title: "Länge leve kontoret",
     intro: "Ett segmenterat mejlutskick som hjälpte uthyrningsteamet att ta kontakt med företag vars hyresavtal närmade sig sitt slut.",
+    client: ["Platzer", "platzer-logo.png"],
     details: [
       ["Uppdraget", "Göra kommunikationen mer relevant för olika mottagare och skapa en tydlig väg vidare till dialog, lokalalternativ och kontakt."],
       ["Arbetet", "Budskap och innehåll anpassades efter mottagarens behov, område och tänkbara lokalstorlek. Flödet gick från igenkänning och behov till konkreta lokalförslag och kontaktperson."],
@@ -69,6 +73,7 @@ const cases = {
     kicker: "Kampanj · Landningssida · Sponsrat innehåll",
     title: "Parkering i Göteborg",
     intro: "En kampanj och landningssida som gjorde Platzers parkeringsmöjligheter enklare att förstå, hitta och boka.",
+    client: ["Platzer", "platzer-logo.png"],
     details: [
       ["Uppdraget", "Samla praktisk information om garageparkering på ett ställe och skapa en tydlig väg från annons till information och bokning."],
       ["Arbetet", "Budskap och format anpassades för webb och sociala medier, med fokus på enkelhet, trygghet och geografisk relevans för olika garage."],
@@ -88,6 +93,7 @@ const cases = {
     kicker: "Kundcase · WordPress · LinkedIn-karusell",
     title: "VBK flyttar till Aria",
     intro: "Ett kundcase om VBK:s flytt till Aria vid Lilla Bommen, där kundens berättelse, arbetsmiljön och platsen fick ta plats.",
+    client: ["Platzer", "platzer-logo.png"],
     details: [
       ["Uppdraget", "Berätta om flytten på ett sätt som lyfte både kunden och Platzers erbjudande, med en ton som passade varumärket och målgruppen."],
       ["Arbetet", "Det längre kundcaset publicerades i WordPress. En LinkedIn-karusell sammanfattade berättelsen och ledde läsaren vidare till webben."],
@@ -113,6 +119,7 @@ const cases = {
     kicker: "Varumärke · Event · Videoredigering · Format",
     title: "Film & videoinnehåll",
     intro: "Rörligt innehåll för varumärke, event och presentationer, där bild, text, grafik och tonalitet fungerar tillsammans.",
+    client: ["Platzer", "platzer-logo.png"],
     details: [
       ["Innehållet", "Exemplen omfattar en film för årsstämman, varumärkesfilmen Nytt uttryck. Samma Platzer. och en kort intervju från Stora Hållbarhetsdagen."],
       ["Arbetssättet", "Varje film anpassades efter sammanhang, kanal och tittarbeteende. Fokus låg på ett tydligt budskap, ett bra tempo och en konsekvent visuell känsla."],
@@ -134,6 +141,7 @@ const cases = {
     kicker: "Hållbarhetskommunikation · Webbtext · Kundkommunikation",
     title: "Självklara inredningsval",
     intro: "Kommunikation för ett koncept som hjälper kunder att skapa hållbara, funktionella och inflyttningsklara kontor.",
+    client: ["Platzer", "platzer-logo.png"],
     details: [
       ["Uppdraget", "Förklara hållbarhet konkret och kundnära, så att materialval, återbruk och långsiktighet blev lätta att förstå."],
       ["Budskapet", "Innehållet lyfte Resurstrappan med bevara, återbruka och nytt cirkulärt, samt hur genomtänkta val kan minska klimatpåverkan."],
@@ -173,6 +181,7 @@ const menuButton = document.querySelector(".menu-button");
 const nav = document.querySelector(".site-nav");
 const dialog = document.querySelector("#case-dialog");
 const dialogClose = document.querySelector(".dialog-close");
+const dialogContent = document.querySelector(".dialog-content");
 const dialogKicker = document.querySelector("#dialog-kicker");
 const dialogTitle = document.querySelector("#dialog-title");
 const dialogIntro = document.querySelector("#dialog-intro");
@@ -206,6 +215,15 @@ const openCase = (caseId) => {
   dialogKicker.textContent = item.kicker;
   dialogTitle.textContent = item.title;
   dialogIntro.textContent = item.intro;
+
+  dialogContent.querySelector(".dialog-client")?.remove();
+  if (item.client) {
+    const [clientName, clientLogo] = item.client;
+    const client = document.createElement("div");
+    client.className = "dialog-client";
+    client.innerHTML = `<span>Kund</span><img src="${clientLogo}" alt="${clientName}">`;
+    dialogKicker.insertAdjacentElement("afterend", client);
+  }
 
   dialogDetails.innerHTML = item.details.map(([title, copy]) => `
     <section class="dialog-detail">
