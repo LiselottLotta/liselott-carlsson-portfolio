@@ -135,7 +135,7 @@ const cases = {
       ["Se intervjun", "https://www.instagram.com/reel/DRwfvICExef/?igsh=YTBuMjU2bm8yMmN0"]
     ],
     images: [
-      ["film-arsstamma.png", "Film för Platzers årsstämma 2026"],
+      ["film-arsstamma-clean.png", "Film för Platzers årsstämma 2026"],
       ["film-varumarke.png", "Varumärkesfilmen Nytt uttryck. Samma Platzer."],
       ["film-hallbarhet.png", "Kort intervju från Stora Hållbarhetsdagen"]
     ]
@@ -151,7 +151,7 @@ const cases = {
       ["Min roll", "Copy, budskapsstruktur, webbförslag, hållbarhetskommunikation och målgruppsanpassning."],
       ["Vidare arbete", "Jag tog även fram brief till reklambyrån för film och inlägg, så konceptet kunde översättas till rörligt och socialt innehåll."]
     ],
-    images: [["sjalvklara-webbforslag.webp", "Förslag för hur Självklara inredningsval kan presenteras på webben"]]
+    images: [["sjalvklara-inredning.webp", "Förslag för hur Självklara inredningsval kan presenteras på webben"]]
   },
   analys: {
     kicker: "Kundresa · GA4 · Funnel · Konvertering",
