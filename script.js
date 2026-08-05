@@ -93,7 +93,10 @@ const cases = {
       ["Min roll", "Copy, struktur, WordPress, webbpublicering, LinkedIn-karusell och CTA."],
       ["Kanalvalet", "Webbformatet gav plats åt hela berättelsen. Karusellen skapade en snabbare och mer visuell ingång i sociala medier."]
     ],
-    links: [["Se kundcaset", "https://www.platzer.se/sv/kundcase/vbk"]],
+    links: [
+      ["Se kundcaset", "https://www.platzer.se/sv/kundcase/vbk"],
+      ["Se LinkedIn-inlägget", "https://www.linkedin.com/posts/platzer-fastigheter-ab_vbk-om-deras-flytt-till-aria-activity-7407064083579011072-qzGY"]
+    ],
     images: [
       ["vbk-1.jpg", "Första bilden i LinkedIn-karusellen"],
       ["vbk-2.jpg", "Karusellbild om varför VBK flyttade"],
