@@ -1336,6 +1336,18 @@ a {
   object-fit: contain;
 }
 
+.dialog-gallery-visuell-produktion figure {
+  min-height: 0;
+  aspect-ratio: 9 / 14;
+  background: #f8f3ee !important;
+}
+
+.dialog-gallery-visuell-produktion img {
+  height: 100%;
+  max-height: none;
+  object-fit: contain;
+}
+
 .reveal {
   opacity: 0;
   transform: translateY(22px);
