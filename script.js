@@ -157,6 +157,7 @@ const cases = {
     kicker: "Kundresa · GA4 · Funnel · Konvertering",
     title: "Analys & digital kundresa",
     intro: "En analys av HelloBombshells digitala kundresa från första klick till köp, med fokus på trafik, beteende, konvertering och tapp i funneln.",
+    client: ["Hello Bombshell", "hellobombshell-logo.png"],
     details: [
       ["Analysen", "Arbetet omfattade GA4-data, funnel, dashboard i Excel, customer journey map, personas, konkurrentanalys och genomgång av produktval och checkout."],
       ["Insikten", "Intresset var starkt tidigt i kundresan, men tapp uppstod när kunden skulle välja rätt färg, längd och mängd löshår samt slutföra köpet i mobilen."],
