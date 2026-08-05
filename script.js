@@ -38,6 +38,7 @@ const cases = {
       ["Min roll", "Copy, struktur, bildurval, layout, kanal-anpassning och visuellt flöde för LinkedIn."],
       ["Värdet", "Ett komplext områdesarbete blev mer tillgängligt och lättare att ta till sig i sociala medier."]
     ],
+    links: [["Se LinkedIn-inlägget", "https://www.linkedin.com/posts/platzer-fastigheter-ab_ny-bro-ny-scen-nytt-str%C3%A5k-gamlestadens-activity-7404155885536641024-am2H"]],
     images: [
       ["gamlestaden-carousel-1.webp", "Startbild för Gamlestadens Fabriker-karusellen"],
       ["gamlestaden-carousel-2.webp", "Karusellbild om Bryggornas bro"],
