@@ -151,7 +151,7 @@ const cases = {
       ["Min roll", "Copy, budskapsstruktur, webbförslag, hållbarhetskommunikation och målgruppsanpassning."],
       ["Vidare arbete", "Jag tog även fram brief till reklambyrån för film och inlägg, så konceptet kunde översättas till rörligt och socialt innehåll."]
     ],
-    images: [["sjalvklara-inredningsval.jpg", "Förslag för hur Självklara inredningsval kan presenteras på webben"]]
+    images: [["sjalvklara-webbforslag.webp", "Förslag för hur Självklara inredningsval kan presenteras på webben"]]
   },
   analys: {
     kicker: "Kundresa · GA4 · Funnel · Konvertering",
