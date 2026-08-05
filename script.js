@@ -20,17 +20,17 @@ const cases = {
   "visuell-produktion": {
     kicker: "Layout · Copy · Bildval · Formatanpassning",
     title: "Visuell produktion",
-    intro: "Visuellt material för platskommunikation, digital skyltning och pop-up/inbjudningar, anpassat efter budskap, format och varumärke.",
+    intro: "Visuellt material för Platzers byggnader och närliggande fastigheter, anpassat för entréskärmar, platskommunikation och inbjudningar.",
     client: ["Platzer", "platzer-logo.png"],
     details: [
-      ["Uppdraget", "Ta fram tydligt material som snabbt gick att förstå i miljöer där mottagaren ofta bara har några sekunder på sig."],
-      ["Arbetet", "Materialet anpassades för olika ytor och sammanhang, från välkomstinformation i fastighet till pop-up-kommunikation för Aria."],
+      ["Uppdraget", "Ta fram tydligt material som snabbt gick att förstå i miljöer där mottagaren möter budskapet på väg in, förbi eller vidare."],
+      ["Arbetet", "Den ena produktionen togs fram som digital entréskylt i Platzers byggnader. Den andra var en inbjudan till hyresgäster och verksamheter i närliggande fastigheter."],
       ["Min roll", "Layout, copy, bildval, formatanpassning, varumärkesanpassning och visuell helhet."],
       ["Resultatet", "Praktiska produktioner med ett tydligt budskap, konsekvent känsla och format som fungerade direkt i respektive kanal."]
     ],
     images: [
-      ["visuell-valkommen.webp", "Välkomstinformation för hyresgäster på Mölndalsvägen 1"],
-      ["visuell-pizza-party.webp", "Pop-up-inbjudan för The Pizza Pushers på Aria"]
+      ["visuell-valkommen.webp", "Digital entréskylt i Platzers byggnader"],
+      ["visuell-pizza-party.webp", "Inbjudan till närliggande fastigheter för The Pizza Pushers på Aria"]
     ]
   },
   gamlestaden: {
