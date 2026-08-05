@@ -20,15 +20,18 @@ const cases = {
   "visuell-produktion": {
     kicker: "Layout · Copy · Bildval · Formatanpassning",
     title: "Visuell produktion",
-    intro: "Visuellt material för digital skyltning och inbjudningar, anpassat efter budskap, kanal och varumärke.",
+    intro: "Visuellt material för platskommunikation, digital skyltning och pop-up/inbjudningar, anpassat efter budskap, format och varumärke.",
     client: ["Platzer", "platzer-logo.png"],
     details: [
-      ["Uppdraget", "Ta fram material som snabbt kommunicerade rätt budskap i miljöer där mottagaren bara har några sekunder på sig."],
-      ["Arbetet", "Innehåll och layout anpassades för bland annat digital skyltning, välkomstinformation och inbjudningar."],
+      ["Uppdraget", "Ta fram tydligt material som snabbt gick att förstå i miljöer där mottagaren ofta bara har några sekunder på sig."],
+      ["Arbetet", "Materialet anpassades för olika ytor och sammanhang, från välkomstinformation i fastighet till pop-up-kommunikation för Aria."],
       ["Min roll", "Layout, copy, bildval, formatanpassning, varumärkesanpassning och visuell helhet."],
-      ["Resultatet", "Tydliga produktioner med en sammanhållen känsla som fungerade direkt i respektive kanal."]
+      ["Resultatet", "Praktiska produktioner med ett tydligt budskap, konsekvent känsla och format som fungerade direkt i respektive kanal."]
     ],
-    images: [["visuell-produktion.webp", "Exempel på visuell produktion för Platzer"]]
+    images: [
+      ["visuell-valkommen.webp", "Välkomstinformation för hyresgäster på Mölndalsvägen 1"],
+      ["visuell-pizza-party.webp", "Pop-up-inbjudan för The Pizza Pushers på Aria"]
+    ]
   },
   gamlestaden: {
     kicker: "LinkedIn · Platskommunikation · Karusell",
