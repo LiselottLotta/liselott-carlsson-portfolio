@@ -141,17 +141,17 @@ const cases = {
     ]
   },
   sjalvklara: {
-    kicker: "Hållbarhetskommunikation · Webbtext · Kundkommunikation",
+    kicker: "Hållbarhetskommunikation · Webbförslag · Brief",
     title: "Självklara inredningsval",
-    intro: "Kommunikation för ett koncept som hjälper kunder att skapa hållbara, funktionella och inflyttningsklara kontor.",
+    intro: "Ett förslag på hur konceptet Självklara inredningsval kunde presenteras på webben och tas vidare i film och sociala medier.",
     client: ["Platzer", "platzer-logo.png"],
     details: [
-      ["Uppdraget", "Förklara hållbarhet konkret och kundnära, så att materialval, återbruk och långsiktighet blev lätta att förstå."],
-      ["Budskapet", "Innehållet lyfte Resurstrappan med bevara, återbruka och nytt cirkulärt, samt hur genomtänkta val kan minska klimatpåverkan."],
-      ["Min roll", "Copy, budskapsstruktur, hållbarhetskommunikation, webbtext, målgruppsanpassning och kundkommunikation."],
-      ["Värdet", "Ett komplext hållbarhetsarbete översattes till innehåll som kändes relevant, praktiskt och användbart för kunden."]
+      ["Uppdraget", "Visa hur hållbara inredningsval kunde förklaras på ett mer konkret, kundnära och lättillgängligt sätt."],
+      ["Webbförslaget", "Jag tog fram förslag på struktur och text för hur konceptet kunde presenteras på webben, med fokus på materialval, återbruk och långsiktighet."],
+      ["Min roll", "Copy, budskapsstruktur, webbförslag, hållbarhetskommunikation och målgruppsanpassning."],
+      ["Vidare arbete", "Jag tog även fram brief till reklambyrån för film och inlägg, så konceptet kunde översättas till rörligt och socialt innehåll."]
     ],
-    images: [["sjalvklara-inredningsval.jpg", "Portfolioöversikt för Självklara inredningsval"]]
+    images: [["sjalvklara-inredningsval.jpg", "Förslag för hur Självklara inredningsval kan presenteras på webben"]]
   },
   analys: {
     kicker: "Kundresa · GA4 · Funnel · Konvertering",
