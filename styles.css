@@ -522,6 +522,11 @@ a {
   background: var(--mist);
 }
 
+.support-card img.support-image-wide {
+  object-fit: contain;
+  background: #e8dcc9;
+}
+
 .support-card small,
 .support-card strong {
   display: block;
@@ -1334,6 +1339,23 @@ a {
   height: auto;
   max-height: 680px;
   object-fit: contain;
+}
+
+.dialog-gallery-sjalvklara {
+  grid-template-columns: 1fr;
+}
+
+.dialog-gallery-sjalvklara figure {
+  min-height: 0;
+  padding: 1.2rem;
+  background: #f8f3ee !important;
+}
+
+.dialog-gallery-sjalvklara img {
+  height: auto;
+  max-height: none;
+  object-fit: contain;
+  border-radius: 0.7rem;
 }
 
 .dialog-gallery-visuell-produktion figure {
