@@ -1287,25 +1287,15 @@ a {
 }
 
 .dialog-gallery-vbk figure {
+  min-height: 0;
+  aspect-ratio: 4 / 5;
+  padding: 1rem;
   background: #f8f3ee !important;
 }
 
-.dialog-gallery-vbk figure:first-child {
-  grid-column: 1 / -1;
-  min-height: 420px;
-  padding: 0;
-}
-
-.dialog-gallery-vbk figure:first-child img {
+.dialog-gallery-vbk img {
   height: 100%;
   max-height: none;
-  object-fit: cover;
-  object-position: 50% 48%;
-}
-
-.dialog-gallery-vbk img {
-  height: auto;
-  max-height: 680px;
   object-fit: contain;
 }
 
