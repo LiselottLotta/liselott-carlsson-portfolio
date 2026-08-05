@@ -41,7 +41,7 @@ const cases = {
     details: [
       ["Uppdraget", "Göra utvecklingen i området lätt att förstå och skapa intresse för nya stråk, mötesplatser och historiska miljöer."],
       ["Arbetet", "Karusellen byggdes som en kort berättelse med tydliga nedslag: ny bro, ny scen, passage mellan husen och historien kring Sockerbruket."],
-      ["Min roll", "Copy, struktur, bildurval, layout, kanal-anpassning och visuellt flöde för LinkedIn."],
+      ["Min roll", "Copy, struktur, bildurval, layout, kanalanpassning och visuellt flöde för LinkedIn."],
       ["Värdet", "Ett komplext områdesarbete blev mer tillgängligt och lättare att ta till sig i sociala medier."]
     ],
     links: [["Se LinkedIn-inlägget", "https://www.linkedin.com/posts/platzer-fastigheter-ab_ny-bro-ny-scen-nytt-str%C3%A5k-gamlestadens-activity-7404155885536641024-am2H"]],
@@ -57,7 +57,7 @@ const cases = {
   "lange-leve": {
     kicker: "Apsis · Segmentering · Copy · Uppföljning",
     title: "Länge leve kontoret",
-    intro: "Ett segmenterat mejlutskick som hjälpte uthyrningsteamet att ta kontakt med företag vars hyresavtal närmade sig sitt slut.",
+    intro: "Ett segmenterat mejlkoncept som hjälpte uthyrningsteamet att ta kontakt med företag vars hyresavtal närmade sig sitt slut.",
     client: ["Platzer", "platzer-logo.png"],
     details: [
       ["Uppdraget", "Göra kommunikationen mer relevant för olika mottagare och skapa en tydlig väg vidare till dialog, lokalalternativ och kontakt."],
