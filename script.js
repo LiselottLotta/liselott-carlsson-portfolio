@@ -135,7 +135,7 @@ const cases = {
       ["Se intervjun", "https://www.instagram.com/reel/DRwfvICExef/?igsh=YTBuMjU2bm8yMmN0"]
     ],
     images: [
-      ["film-arsstamma-clean.png", "Film för Platzers årsstämma 2026"],
+      ["film-arsstamma-portrait.webp", "Film för Platzers årsstämma 2026"],
       ["film-varumarke.png", "Varumärkesfilmen Nytt uttryck. Samma Platzer."],
       ["film-hallbarhet.png", "Kort intervju från Stora Hållbarhetsdagen"]
     ]
