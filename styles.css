@@ -1344,13 +1344,18 @@ a {
 .dialog-gallery-film figure {
   min-height: 0;
   aspect-ratio: 4 / 5;
-  padding: 1rem;
+  padding: 1.15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: #f8f3ee !important;
 }
 
 .dialog-gallery-film img {
-  height: 100%;
-  max-height: none;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
   object-fit: contain;
   border-radius: 0.65rem;
 }
