@@ -1341,6 +1341,20 @@ a {
   object-fit: contain;
 }
 
+.dialog-gallery-film figure {
+  min-height: 0;
+  aspect-ratio: 4 / 5;
+  padding: 1rem;
+  background: #f8f3ee !important;
+}
+
+.dialog-gallery-film img {
+  height: 100%;
+  max-height: none;
+  object-fit: contain;
+  border-radius: 0.65rem;
+}
+
 .dialog-gallery-sjalvklara {
   grid-template-columns: 1fr;
 }
