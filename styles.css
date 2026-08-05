@@ -1338,14 +1338,16 @@ a {
 
 .dialog-gallery-visuell-produktion figure {
   min-height: 0;
-  aspect-ratio: 9 / 14;
+  padding: 1.2rem;
+  align-self: start;
   background: #f8f3ee !important;
 }
 
 .dialog-gallery-visuell-produktion img {
-  height: 100%;
+  height: auto;
   max-height: none;
   object-fit: contain;
+  border-radius: 0.65rem;
 }
 
 .reveal {
